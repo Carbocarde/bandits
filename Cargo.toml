@@ -1,0 +1,27 @@
+[package]
+name = "bandits"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "bandits"
+path = "src/bandits.rs"
+
+[dependencies]
+argh = "0.1.12"
+colored = "2.0.4"
+float-cmp = "0.9.0"
+log = "0.4.22"
+ordered-float = { version = "4.1.1", features = ["serde"] }
+puruspe = "0.2.5"
+rand = "0.8.5"
+rgb = "0.8.37"
+serde = { version = "1.0.108", features = ["derive"] }
+serde_json = "1.0.108"
+textplots = "0.8.4"
+
+[dev-dependencies]
+assert_cmd = "2.0.12"
+predicates = "3.0.4"

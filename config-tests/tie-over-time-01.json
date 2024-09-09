@@ -1,0 +1,37 @@
+{
+    "scripts": [
+        {
+            "name": "test 0.25 fast * 4",
+            "command": "./scripts/bandit_example.sh 0.25 0.075",
+            "results": {
+                "interesting": 0,
+                "uninteresting": 0
+            },
+            "runcount": 0,
+            "avgruntime_ms": null,
+            "bias": 1.0
+        },
+        {
+            "name": "test 0.5 med * 2",
+            "command": "./scripts/bandit_example.sh 0.5 0.175",
+            "results": {
+                "interesting": 0,
+                "uninteresting": 0
+            },
+            "runcount": 0,
+            "avgruntime_ms": null,
+            "bias": 1.0
+        },
+        {
+            "name": "test 1.0 slow * 1",
+            "command": "./scripts/bandit_example.sh 1.0 0.376",
+            "results": {
+                "interesting": 0,
+                "uninteresting": 0
+            },
+            "runcount": 0,
+            "avgruntime_ms": null,
+            "bias": 1.0
+        }
+    ]
+}

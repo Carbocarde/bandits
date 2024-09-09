@@ -1,0 +1,15 @@
+{
+    "scripts": [
+        {
+            "name": "Test 1",
+            "command": "ls",
+            "results": {
+                "interesting": 0,
+                "uninteresting": 0
+            },
+            "runcount": 0,
+            "avgruntime_ms": null,
+            "bias": -1.0
+        }
+    ]
+}

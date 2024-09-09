@@ -1,0 +1,26 @@
+{
+    "scripts": [
+        {
+            "name": "exit 1",
+            "command": "./scripts/exit.sh 1",
+            "results": {
+                "interesting": 0,
+                "uninteresting": 0
+            },
+            "runcount": 0,
+            "avgruntime_ms": null,
+            "bias": 1.0
+        },
+        {
+            "name": "exit 0",
+            "command": "./scripts/exit.sh 0",
+            "results": {
+                "interesting": 0,
+                "uninteresting": 0
+            },
+            "runcount": 0,
+            "avgruntime_ms": null,
+            "bias": 1.0
+        }
+    ]
+}
