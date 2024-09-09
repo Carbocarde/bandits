@@ -8,8 +8,7 @@ run {config}
 rank {config}
 reset {config} -s {script}
 summarize {config}
-limit {config} -c {command} -l {limit}
-weight {config} -c {command} -w {weight}
+lint {config}
 ```
 
 # Limit
